@@ -1,0 +1,12 @@
+[package]
+name = "tiberius_picks_azure_sql"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tiberius = "0.12.3"
+tokio={version = "1.47.1",features = ["rt-multi-thread","net","macros"]}
+tokio-util = {version = "0.7.16", features = ["compat"]}
+anyhow="1.0.100"
+azure_identity = "0.29.0"
+azure_core = "0.29.0"
