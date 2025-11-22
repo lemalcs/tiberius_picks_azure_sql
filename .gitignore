@@ -1,0 +1,30 @@
+# Rust build artifacts
+/target
+
+# Cargo.lock for libraries (uncomment if you want to commit it)
+# Cargo.lock is typically ignored for libraries but committed for binaries
+Cargo.lock
+
+# Backup files
+**/*.rs.bk
+*.orig
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing and coverage
+*.profraw
+*.profdata
+/coverage
+
+# Documentation build
+/target/doc
+
+# Environment files
+.env
+.env.local
